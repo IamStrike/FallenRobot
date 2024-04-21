@@ -1,7 +1,7 @@
 {
-      "name": "Fallen Robot",
-      "description": "Telegram Group Management Bot.",
-      "logo": "https://te.legra.ph/file/72e135da30a1a349f2844.jpg",
+      "name": " hᴇʟ꙱ʟ꙱ ꭙ ʙσᴛ ⚡",
+      "description": "Telegram Group Management Bot Developed By 𝐕𝐈𝐏 𝓢ᴛʀɪᴋᴇ.",
+      "logo": "https://telegra.ph/file/c2bbe2b73505fbc1d6b78.jpg",
       "keywords": [
          "telegram",
          "modular",
@@ -9,7 +9,7 @@
          "manager",
          "Fallen"
       ],   
-   "repository": "https://github.com/AnonymousX1025/FallenRobot",
+   "repository": "https://github.com/IamStrike/FallenRobot",
    "stack": "heroku-22",
    "addons": [
       {
