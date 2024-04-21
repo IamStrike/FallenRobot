@@ -247,7 +247,7 @@ async def lego(event):
     quew = event.pattern_match.group(1)
     if event.sender_id != OWNER_ID and not quew:
         await event.reply(
-            "ɢɪᴠᴇ sᴏᴍᴇ ᴛᴇxᴛ ᴛᴏ ᴄʀᴇᴀᴛᴇ ʟᴏɢᴏ !\nExample : `/logo <ANONYMOUS>`"
+            "ɢɪᴠᴇ sᴏᴍᴇ ᴛᴇxᴛ ᴛᴏ ᴄʀᴇᴀᴛᴇ ʟᴏɢᴏ !\nExample : `/logo <𝐕𝐈𝐏 𝓢ᴛʀɪᴋᴇ>`"
         )
         return
     pesan = await event.reply("**ᴄʀᴇᴀᴛɪɴɢ ʏᴏᴜʀ ʀᴇǫᴜᴇsᴛᴇᴅ ʟᴏɢᴏ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ᴀ sᴇᴄ...**")
@@ -275,12 +275,12 @@ async def lego(event):
         draw.text(
             (x, y), text, font=font, fill="white", stroke_width=1, stroke_fill="black"
         )
-        fname = "fallen.png"
+        fname = "Hell.png"
         img.save(fname, "png")
         await telethn.send_file(
             event.chat_id,
             file=fname,
-            caption=f"ʟᴏɢᴏ ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ [{BOT_NAME}](https://t.me/{BOT_USERNAME})",
+            caption=f"ʟᴏɢᴏ ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ [{BOT_NAME}](https://t.me/Hell_Manager_bot)",
         )
         await pesan.delete()
         if os.path.exists(fname):
@@ -314,7 +314,7 @@ async def lego(event):
         await telethn.send_file(
             event.chat_id,
             file=fname,
-            caption=f"ʟᴏɢᴏ ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ [{BOT_NAME}](https://t.me/{BOT_USERNAME})",
+            caption=f"ʟᴏɢᴏ ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ [{BOT_NAME}](https://t.me/Hell_Manager_bot)",
         )
         await pesan.delete()
         if os.path.exists(fname):
